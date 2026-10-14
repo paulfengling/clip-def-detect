@@ -1,0 +1,38 @@
+# Python runtimes and generated caches
+.venv/
+.AA-CLIP/
+venv/
+env/
+Include/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local datasets, learned weights and inference outputs
+/data/
+/ckpt/
+/results/
+*.pt
+*.pth
+*.onnx
+*.npy
+*.npz
+*.log
+/dataset/metadata/bottle_*/
+/dataset/metadata/wafer*/
+/big_break.jpg
+/small_break.jpg
+
+# Local settings, credentials and editor/OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+.idea/
+.vscode/
